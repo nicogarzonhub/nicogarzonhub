@@ -27,9 +27,9 @@ class NicolasGarzon:
     def __init__(self):
         self.name       = "Nicolas Garzon Ramirez"
         self.role       = "Junior Software Developer"
-        self.location   = "Medellín, Colombia 🇨🇴"
+        self.location   = "Medellín, Colombia "
         self.education  = "Desarrollo de Software @ RIWI (2025 - Present)"
-        self.languages  = ["Español  (Nativo)", "English 🇬🇧(B2)"]
+        self.languages  = ["Español  (Nativo)", "English (B2)"]
         self.interests  = ["AI Automation", "RAG Systems", "Web Development"]
         self.currently  = "Building cool things with Python & JS "
 
