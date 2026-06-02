@@ -79,9 +79,10 @@ class NicolasGarzon:
 
 <div align="center">
 
-<a href="https://github.com/nicogarzonhub">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nicogarzonhub&repo=ScrumHub&theme=github_dark&border_color=21262d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&hide_border=false" />
+<a href="https://www.linkedin.com/in/nicolas-garzon-dev">
+  <img src="https://img.shields.io/badge/%C2%BFTienes%20un%20proyecto%20en%20mente%3F%20%E2%80%94%20Hablemos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
+
 
 </div>
 
