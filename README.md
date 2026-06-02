@@ -29,9 +29,9 @@ class NicolasGarzon:
         self.role       = "Junior Software Developer"
         self.location   = "Medellín, Colombia 🇨🇴"
         self.education  = "Desarrollo de Software @ RIWI (2025 - Present)"
-        self.languages  = ["Español 🇨🇴 (Nativo)", "English 🇬🇧 (B2)"]
+        self.languages  = ["Español  (Nativo)", "English 🇬🇧(B2)"]
         self.interests  = ["AI Automation", "RAG Systems", "Web Development"]
-        self.currently  = "Building cool things with Python & JS 🚀"
+        self.currently  = "Building cool things with Python & JS "
 
     def say_hi(self):
         print("¡Listo para construir el futuro con código!")
@@ -75,7 +75,7 @@ class NicolasGarzon:
 
 ---
 
-## 🚀 Proyectos Destacados
+##  Proyectos Destacados
 
 <div align="center">
 
@@ -87,14 +87,14 @@ class NicolasGarzon:
 
 <br/>
 
-| 🔷 Proyecto | 📋 Descripción | 🛠 Stack |
+|  Proyecto |  Descripción |  Stack |
 |---|---|---|
 | **ScrumHub** | Herramienta para gestión de backlogs de proyectos, integrada con GitHub y Moodle | Python, JS, GitHub API |
 | **Pegasus Mechanics** | App de control de inventario y diagnóstico de motocicletas con landing page | React, PostgreSQL, Figma |
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
 
@@ -112,22 +112,22 @@ class NicolasGarzon:
 
 ---
 
-## 🎯 Actualmente aprendiendo
+##  Actualmente aprendiendo
 
 <div align="center">
 
 ```
-🤖  Sistemas RAG avanzados con LangChain
-⚡  Automatización de flujos con n8n
-🌐  React + Supabase para apps full-stack
-🔐  Bases de datos relacionales (PostgreSQL)
+  Sistemas RAG avanzados con LangChain
+  Automatización de flujos con n8n
+  React + Supabase para apps full-stack
+  Bases de datos relacionales (PostgreSQL)
 ```
 
 </div>
 
 ---
 
-## 📈 Actividad
+##  Actividad
 
 <div align="center">
 
