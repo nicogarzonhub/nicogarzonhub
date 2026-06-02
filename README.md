@@ -99,9 +99,10 @@ class NicolasGarzon:
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nicogarzonhub&theme=github_dark" width="100%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nicogarzonhub&theme=github_dark" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nicogarzonhub&theme=github_dark" width="49%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nicogarzonhub&theme=github_dark" width="70%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nicogarzonhub&theme=github_dark" width="34%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nicogarzonhub&theme=github_dark" width="34%"/>
+
 
 
 
