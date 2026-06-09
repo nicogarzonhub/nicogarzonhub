@@ -116,16 +116,8 @@ class NicolasGarzon:
 
 ---
 
-##  Actualmente aprendiendo
-
 <div align="center">
-
-```
-  LangChain
-  Automatización de flujos con n8n
-  React + Supabase para apps full-stack
-```
-
+  <img src="./nicolas_garzon_animation.svg" width="100%"/>
 </div>
 
 ---
