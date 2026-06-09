@@ -115,10 +115,78 @@ class NicolasGarzon:
 </div>
 
 ---
-
-<div align="center">
-  <img src="./nicolas_garzon_animation.svg" width="100%"/>
-</div>
+<svg width="100%" viewBox="0 0 680 130" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Nicolas Garzon - contribution grid art</title>
+<desc>Pixel art animado que forma el texto Nicolas Garzon con cuadros estilo GitHub</desc>
+<style>
+rect.cell { rx: 2; }
+.lit { fill: #1a6fc4; }
+.dim { fill: #0d1117; stroke: #21262d; stroke-width: 0.5; }
+@keyframes pop {
+  0%   { opacity: 0; transform: scale(0.4); }
+  60%  { opacity: 1; transform: scale(1.15); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.lit { animation: pop 0.25s ease-out both; }
+</style>
+ 
+<script>
+const font = {
+  'N': [[1,1,0,0,1],[1,1,0,0,1],[1,1,1,0,1],[1,0,1,0,1],[1,0,1,1,1],[1,0,0,1,1],[1,0,0,0,1]],
+  'I': [[1,1,1,1,1],[0,0,1,0,0],[0,0,1,0,0],[0,0,1,0,0],[0,0,1,0,0],[0,0,1,0,0],[1,1,1,1,1]],
+  'C': [[0,1,1,1,0],[1,0,0,0,1],[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,1],[0,1,1,1,0]],
+  'O': [[0,1,1,1,0],[1,0,0,0,1],[1,0,0,0,1],[1,0,0,0,1],[1,0,0,0,1],[1,0,0,0,1],[0,1,1,1,0]],
+  'L': [[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0],[1,0,0,0,0],[1,1,1,1,1]],
+  'A': [[0,0,1,0,0],[0,1,0,1,0],[1,0,0,0,1],[1,1,1,1,1],[1,0,0,0,1],[1,0,0,0,1],[1,0,0,0,1]],
+  'S': [[0,1,1,1,1],[1,0,0,0,0],[1,0,0,0,0],[0,1,1,1,0],[0,0,0,0,1],[0,0,0,0,1],[1,1,1,1,0]],
+  ' ': [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
+  'G': [[0,1,1,1,0],[1,0,0,0,1],[1,0,0,0,0],[1,0,1,1,1],[1,0,0,0,1],[1,0,0,0,1],[0,1,1,1,1]],
+  'R': [[1,1,1,1,0],[1,0,0,0,1],[1,0,0,0,1],[1,1,1,1,0],[1,0,1,0,0],[1,0,0,1,0],[1,0,0,0,1]],
+  'Z': [[1,1,1,1,1],[0,0,0,0,1],[0,0,0,1,0],[0,0,1,0,0],[0,1,0,0,0],[1,0,0,0,0],[1,1,1,1,1]],
+};
+ 
+const GAP = 12;
+const OFFSET_Y = 20;
+const text = 'NICOLAS GARZON';
+const svg = document.currentScript.closest('svg');
+ 
+let allCols = [];
+for (let ch of text) {
+  const glyph = font[ch] || font[' '];
+  const w = glyph[0].length;
+  for (let col = 0; col < w; col++) {
+    let column = [];
+    for (let row = 0; row < 7; row++) column.push(glyph[row][col]);
+    allCols.push(column);
+  }
+  allCols.push([0,0,0,0,0,0,0]);
+}
+ 
+const totalWidth = allCols.length * GAP;
+const startX = (680 - totalWidth) / 2;
+const shades = ['#1a6fc4','#58a6ff','#0a2a5e','#2188ff','#1a6fc4'];
+ 
+for (let col = 0; col < allCols.length; col++) {
+  for (let row = 0; row < 7; row++) {
+    const lit = allCols[col][row];
+    const rect = document.createElementNS('http://www.w3.org/2000/svg','rect');
+    rect.setAttribute('x', startX + col * GAP);
+    rect.setAttribute('y', OFFSET_Y + row * GAP);
+    rect.setAttribute('width', 10);
+    rect.setAttribute('height', 10);
+    rect.setAttribute('rx', 2);
+    if (lit) {
+      rect.setAttribute('class', 'lit');
+      rect.style.animationDelay = (col * 0.03) + 's';
+      rect.style.fill = shades[Math.floor(Math.random() * shades.length)];
+    } else {
+      rect.setAttribute('class', 'dim');
+    }
+    svg.appendChild(rect);
+  }
+}
+</script>
+</svg>
 
 ---
 
