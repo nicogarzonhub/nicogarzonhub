@@ -64,17 +64,6 @@ class NicolasGarzon:
 
 ##  Proyectos Destacados
 
-<div align="center">
-
-<a href="https://www.linkedin.com/in/nicolas-garzon-dev">
-  <img src="https://img.shields.io/badge/%C2%BFTienes%20un%20proyecto%20en%20mente%3F%20%E2%80%94%20Hablemos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-
-</div>
-
-<br/>
-
 |  Proyecto |  Descripción |  Stack |
 |---|---|---|
 | **ScrumHub** | Herramienta para gestión de backlogs de proyectos, integrada con GitHub y Moodle | Python, JS, GitHub API |
