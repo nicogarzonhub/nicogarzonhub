@@ -44,7 +44,7 @@ class NicolasGarzon:
 <div align="center">
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,react,postgres,mongodb,supabase,git,github,figma,n8n&theme=dark&perline=6"/>
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,react,postgres,mongodb,supabase,git,github,n8n,figma&theme=dark&perline=6"/>
 </div>
 
 ---
