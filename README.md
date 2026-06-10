@@ -64,6 +64,7 @@ class NicolasGarzon:
 
 ##  Proyectos Destacados
 
+
 |  Proyecto |  Descripción |  Stack |
 |---|---|---|
 | **ScrumHub** | Herramienta para gestión de backlogs de proyectos, integrada con GitHub y Moodle | Python, JS, GitHub API |
