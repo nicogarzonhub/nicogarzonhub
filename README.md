@@ -91,7 +91,7 @@ class NicolasGarzon:
 |  Proyecto |  Descripción |  Stack |
 |---|---|---|
 | **ScrumHub** | Herramienta para gestión de backlogs de proyectos, integrada con GitHub y Moodle | Python, JS, GitHub API |
-| **Pegasus Mechanics** | App de control de inventario y diagnóstico de motocicletas con landing page | React, PostgreSQL, Figma |
+| **Pegasus Mechanics** | App de control de inventario y diagnóstico de motocicletas con landing page | React, PostgreSQL, JSX, Supabase, Python |
 
 ---
 
