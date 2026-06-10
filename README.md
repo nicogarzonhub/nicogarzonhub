@@ -115,9 +115,7 @@ class NicolasGarzon:
 </div>
 
 ---
-<div align="center">
-  <img src="./nicolas_garzon_animation.svg" width="100%"/>
-</div>
+
 
 ---
 
