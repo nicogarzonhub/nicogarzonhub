@@ -26,7 +26,7 @@
 
 ###  Nicolás Garzón Ramírez
 
-*Junior Software Developer · Medellín, Colombia *
+*Junior Software Developer · Medellín, Colombia*
 
 </div>
 
