@@ -24,7 +24,6 @@
 
 <div align="center">
 
-###  Nicolás Garzón Ramírez
 
 *Junior Software Developer · Medellín, Colombia*
 
