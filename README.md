@@ -24,9 +24,7 @@
 
 <div align="center">
 
-
 *Junior Software Developer · Medellín, Colombia*
-
 </div>
 
 <br/>
