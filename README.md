@@ -36,7 +36,7 @@
 
 <div align="center">
 
-`🎓 RIWI 2025 - Actualidad` &nbsp;•&nbsp; `🌎 Español / English (B2)`;
+`🎓 RIWI 2025 - Actualidad` &nbsp;•&nbsp; `🌎 Español / English (B2)`
 
 </div>
 
