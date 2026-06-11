@@ -22,20 +22,23 @@
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> Sobre mí
 
-```python
-class NicolasGarzon:
-    def __init__(self):
-        self.name       = "Nicolas Garzon Ramirez"
-        self.role       = "Junior Software Developer"
-        self.location   = "Medellín, Colombia "
-        self.education  = "Desarrollo de Software @ RIWI (2025 - Present)"
-        self.languages  = ["Español  (Nativo)", "English (B2)"]
-        self.interests  = ["AI Automation", "RAG Systems", "Web Development"]
-        self.currently  = "Building cool things with Python & JS "
+<div align="center">
 
-    def say_hi(self):
-        print("¡Listo para construir el futuro con código!")
-```
+###  Nicolás Garzón Ramírez
+
+*Junior Software Developer · Medellín, Colombia 🇨🇴*
+
+</div>
+
+<br/>
+
+> Construyo soluciones de software combinando desarrollo web con automatización inteligente. Actualmente curso **Desarrollo de Software en RIWI**, enfocado en llevar ideas a producto usando Python, JavaScript y herramientas de IA como LangChain y n8n.
+
+<div align="center">
+
+`🎓 RIWI 2025 - Actualidad` &nbsp;•&nbsp; `🌎 Español / English (B2)` &nbsp;•&nbsp; `📬 Abierto a oportunidades`
+
+</div>
 
 ---
 
